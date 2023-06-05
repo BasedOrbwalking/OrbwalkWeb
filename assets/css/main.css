@@ -25,4 +25,8 @@ EmojiSymbols;
     color: white !important;
 }
 
+#scroll-button {
+    margin-left: 20px;
+}
+
 /* Custom CSS end */

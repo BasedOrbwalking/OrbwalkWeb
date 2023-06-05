@@ -38,3 +38,14 @@ themeToggleBtn.addEventListener('click', function() {
     }
     
 });
+
+// Scroll click!
+document.getElementById('scroll-button').addEventListener('click', function() {
+    const scrollTarget = document.getElementById('scroll-target');
+    const targetPosition = scrollTarget.getBoundingClientRect().top + window.scrollY;
+    window.scrollTo({
+      top: targetPosition,
+      behavior: 'smooth'
+    });
+  });
+  

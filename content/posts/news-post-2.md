@@ -1,15 +1,15 @@
 ---
-title: "News Post 2"
+title: "Pixel-Perfect Orbwalker"
 date: 2022-04-18T11:10:36+08:00
 draft: false
 language: en
 featured_image: ../assets/images/featured/featured-img-placeholder.png
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero.
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus, odio nec venenatis lacinia, lacus lectus varius nisi, in tristique mi purus ut libero. Vestibulum vel convallis felis. Ut finibus lorem vestibulum lobortis rhoncus.
+summary: Operates by analyzing the game's visuals at a pixel level, allowing the software to precisely calculate the optimal positioning for each attack.
+description: Operates by analyzing the game's visuals at a pixel level, allowing the software to precisely calculate the optimal positioning for each attack.
 author: TailBliss
 authorimage: ../assets/images/global/author.webp
-categories: News
-tags: News
+categories: Features
+tags: Features
 ---
 __Advertisement :smile:__
 
