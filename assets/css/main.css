@@ -29,4 +29,7 @@ EmojiSymbols;
     margin-left: 20px;
 }
 
+html, body {
+    scroll-behavior: smooth !important;
+}
 /* Custom CSS end */
