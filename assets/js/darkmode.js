@@ -53,7 +53,7 @@ document.getElementById('scroll-button').addEventListener('click', function() {
 particlesJS("particles-js", {
     "particles": {
         "number": {
-            "value": 52,
+            "value": 120,
             "density": {
                 "enable": true,
                 "value_area": 800
