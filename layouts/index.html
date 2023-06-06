@@ -13,7 +13,7 @@
                     <a href="https://github.com/nusserstudios/tailbliss"
                        class="block py-4 mx-auto space-x-4 sm:inline-flex md:inline-flex sm:text-center sm:block">
                         <span
-                              class="rounded bg-gray-50 px-2.5 py-1 text-sm font-bold text-gray-900 block max-w-fit mx-auto md:min-w-fit mb-2">
+                              class="rounded bg-gray-50 px-3 py-2 text-sm font-bold text-gray-900 block max-w-fit mx-auto md:min-w-fit mb-2">
                             Get a License!
                         </span>
                     </a>
@@ -33,15 +33,17 @@
                         Based Orbwalker is a quite complicated hobby project built to replace software like Wadbot or Spinjitzuu.</p>
                 </div>
                 <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/twitch1.png" }}
-
-                    {{ $thumb := ($hero.Fill "400x400 webp q90") }}
-                    {{ $large := ($hero.Fill "576x576 webp q90") }}
-
-                    <img srcset="
-                        {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
-                        {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}"
-                         width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xl mx-auto rounded-lg" />
+                    <div id="particles-js" style="position:relative;">
+                        {{ $hero := resources.GetMatch "images/pages/twitch3.png" }}
+                        
+                        {{ $thumb := ($hero.Fill "400x400 webp q90") }}
+                        {{ $large := ($hero.Fill "576x576 webp q90") }}
+                            <canvas class="particles-js-canvas-el canvas-particle" style="width: 100%; height: 100%; position: absolute; left: 0; top: 0;" width="600" height="300"></canvas>
+                            <img srcset="
+                            {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
+                            {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}"
+                            width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xl mx-auto rounded-lg"/>
+                    </div>
                 </div>
             </div>
         </div>
