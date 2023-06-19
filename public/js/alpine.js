@@ -1,5 +1,5 @@
 (() => {
-  // node_modules/.pnpm/@vue+shared@3.1.5/node_modules/@vue/shared/dist/shared.esm-bundler.js
+  // node_modules/@vue/shared/dist/shared.esm-bundler.js
   function makeMap(str, expectsLowerCase) {
     const map = /* @__PURE__ */ Object.create(null);
     const list = str.split(",");
@@ -42,7 +42,7 @@
   var toHandlerKey = cacheStringFunction((str) => str ? `on${capitalize(str)}` : ``);
   var hasChanged = (value, oldValue) => value !== oldValue && (value === value || oldValue === oldValue);
 
-  // node_modules/.pnpm/@vue+reactivity@3.1.5/node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js
+  // node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js
   var targetMap = /* @__PURE__ */ new WeakMap();
   var effectStack = [];
   var activeEffect;
@@ -707,7 +707,7 @@
     return Boolean(r && r.__v_isRef === true);
   }
 
-  // node_modules/.pnpm/alpinejs@3.12.1/node_modules/alpinejs/dist/module.esm.js
+  // node_modules/alpinejs/dist/module.esm.js
   var flushPending = false;
   var flushing = false;
   var queue = [];
