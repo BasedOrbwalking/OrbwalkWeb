@@ -20,7 +20,7 @@ facebook = "https://facebook.com/nusserstudios"
 og_image = "/images/tailbliss-cover.png"
 sitename = "TailBliss"
 twitter = "@nusserstudios"
-description = "TailBliss is Hugo Starter"
+description = "BasedOrbwalker"
 
 [markup]
 [markup.goldmark]
