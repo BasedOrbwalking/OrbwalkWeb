@@ -3,7 +3,7 @@ title: "Cool Menu"
 date: 2022-06-18T11:10:36+08:00
 draft: false
 language: en
-featured_image: ../assets/images/featured/featured-img-placeholder.png
+featured_image: ../assets/images/featured/menu.png
 summary: Cool and simple menu based on Windows Forms to configure everything in-game.
 description: Cool and simple menu based on Windows Forms to configure everything in-game.
 author: expo

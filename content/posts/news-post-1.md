@@ -3,7 +3,7 @@ title: "Minimal Overlay"
 date: 2022-05-18T11:10:36+08:00
 draft: false
 language: en
-featured_image: ../assets/images/featured/featured-img-placeholder.png
+featured_image: ../assets/images/featured/overlay.png
 summary: Showing stats, important info without allocating too much resources to keep your gameplay smooth.
 description: Showing stats, important info without allocating too much resources to keep your gameplay smooth.
 author: TailBliss
