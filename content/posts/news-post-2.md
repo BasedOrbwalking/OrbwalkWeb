@@ -3,7 +3,7 @@ title: "Pixel-Perfect Orbwalker"
 date: 2022-04-18T11:10:36+08:00
 draft: false
 language: en
-featured_image: ../assets/images/featured/featured-img-placeholder.png
+featured_image: ../assets/images/featured/pixelscan.png
 summary: Operates by analyzing the game's visuals at a pixel level, allowing the software to precisely calculate the optimal positioning for each attack.
 description: Operates by analyzing the game's visuals at a pixel level, allowing the software to precisely calculate the optimal positioning for each attack.
 author: TailBliss
